@@ -1,2 +1,5 @@
-# capacitacion-problema1
-capacitaciones urbania 21-09-18
+# Ejercicio 1
+Capacitación: Git, bash y docker
+Integrantes:
+- [Carlos Arbildo]
+- [Irvin León]
