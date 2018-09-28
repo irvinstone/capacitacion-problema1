@@ -43,3 +43,49 @@ PARTE 2
 `git merge`	->	Mezcla dos ramas
 `git branch`	->	Gestionar ramas
 
+
+PARTE 4
+
+1. ¿Qué importancia tiene los tags en un proyecto?
+	Indican una versiòn de lanzamiento del proyecto
+
+2. ¿Cuál es la diferencia entre un tag normal y un tag anotado en git?
+	Un tag anotado permite almaecenar información relacionada con la etiqueda, en cambio el tag normal solo sirve como puntero
+
+3. ¿Cómo se sube todos los tags de git que hay en mi local?
+	git push --tags
+
+4. ¿Es necesario loguearse cada vez que subo una imagen a dockerhub?
+	No es necesario
+
+5. ¿Qué es y para qué sirve docker?
+	Es una plataforma para desarrollores para construir y correr aplicatoines distribuidad usando contenedores.
+
+6. ¿Cuál es la diferencia entre docker y VirtualBox (virtualización)?
+	Docker interactua directamente con el sistema operativo, mientras que VirtualBox necesita una capa de sistema operativo.
+
+7. ¿Es necesario depender de una imagen de docker base al crear una imagen nueva?
+	Sí, todas las imágenes necesitan una imágen base para generarse, la imágen base es "scratch"
+
+8. ¿Porqué debo anteponer el nombre de usuario en una imagen docker nueva?
+	Por que es un estàndar de dockerhub para identificar a qué usuario de docker pertenece	
+
+9. ¿Que pasa si creo una imagen sin especificar una versión o tag, con qué versión se crea?
+	Se crea con la versión latest
+
+	PARTE 5
+
+1. ¿Porqué es necesario crear un contenedor con esta bandera -it ? ¿Qué pasa si no le pongo -it?
+	Para poder acceder al modo interactivo del contenedor
+	Ejecuta el comando, pero no se puede visualizar el shell del contenedor ni interactuar con él.
+
+2. ¿Para qué sirve ejecutar el comando bash al ejecutar una imagen?
+	Sirve para iniciar el interprete de comando bash dentro del contedor.
+	"Docker ps" muestra todas las imágenes que se están ejecutando, mientras "docker ps --all" muestra todas las imágenes incluso si no estan en un estado de ejecución
+
+
+	
+
+
+
+
