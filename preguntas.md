@@ -84,7 +84,8 @@ PARTE 4
 	"Docker ps" muestra todas las imágenes que se están ejecutando, mientras "docker ps --all" muestra todas las imágenes incluso si no estan en un estado de ejecución
 
 
-	
+8. comando para ejecutar el contenedor.
+	docker run -it irvinstone/orbis-training-docker:0.2.0 bash
 
 
 
